@@ -12,6 +12,8 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/计网笔记_index"> 计网笔记 </a> > <a href="/notes408/indexes/计网笔记/六应用层_index"> 六、应用层 </a> > （一）网络 App、DNS、FTP
+
 ### 1. 网络应用模型
 
 #### 1.1. 客户—服务器模式（C/S ）

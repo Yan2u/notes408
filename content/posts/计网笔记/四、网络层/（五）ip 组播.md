@@ -12,6 +12,8 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/计网笔记_index"> 计网笔记 </a> > <a href="/notes408/indexes/计网笔记/四网络层_index"> 四、网络层 </a> > （五）ip 组播
+
 ### 1. 概念
 
 ![img_hee0ewktnd](https://cloudflare-imgbed-ajc.pages.dev/file/1741871371796_hee0ewktnd.png)

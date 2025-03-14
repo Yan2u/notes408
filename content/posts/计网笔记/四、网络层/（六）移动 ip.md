@@ -12,6 +12,8 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/计网笔记_index"> 计网笔记 </a> > <a href="/notes408/indexes/计网笔记/四网络层_index"> 四、网络层 </a> > （六）移动 ip
+
 ### 1. 概念
 
 - 为了满足**移动节点在移动中保持其连接性**而设计的 ip 地址；

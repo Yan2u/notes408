@@ -12,6 +12,8 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/计网笔记_index"> 计网笔记 </a> > <a href="/notes408/indexes/计网笔记/四网络层_index"> 四、网络层 </a> > （三）ipv4（⭐）
+
 ### 1. ipv4 分组
 
 ![img_TX2TwBeOyH](https://cloudflare-imgbed-ajc.pages.dev/file/1741871985822_TX2TwBeOyH.png)

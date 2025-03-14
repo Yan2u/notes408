@@ -136,6 +136,8 @@ markup:
     lineNos: true
     style: monokailight
   goldmark:
+    renderer:
+      unsafe: true
     extensions:
       passthrough:
         delimiters:

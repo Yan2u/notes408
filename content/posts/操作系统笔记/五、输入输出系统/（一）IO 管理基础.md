@@ -12,6 +12,8 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/操作系统笔记_index"> 操作系统笔记 </a> > <a href="/notes408/indexes/操作系统笔记/五输入输出系统_index"> 五、输入输出系统 </a> > （一）IO 管理基础
+
 ### 1. IO 设备
 
 #### 1.1. IO 设备基本概念
