@@ -3,3 +3,16 @@ This is just a placeholder blank stylesheet so as to support adding custom style
 
 Read https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#bundling-custom-css-with-themes-assets for more info
 */
+
+table {
+	display: table;
+	width: 100%;
+}
+
+td, th {
+	min-width: auto !important;
+	width: auto;
+	white-space: normal;
+	word-wrap: break-word;
+	overflow-wrap: anywhere;
+}

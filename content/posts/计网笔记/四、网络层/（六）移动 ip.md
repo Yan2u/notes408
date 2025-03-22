@@ -1,8 +1,10 @@
 ---
 title: （六）移动 ip
 date: 2025-03-14T10:09:47.845326+08:00
-tags: ['计网笔记', '四、网络层']
+tags: ['计网笔记', '四、网络层', '（六）移动 ip.md']
+url: /posts/URXAs4M3xK
 author: "Yan2u"
+IsPost: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -12,7 +14,7 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
-<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/计网笔记_index"> 计网笔记 </a> > <a href="/notes408/indexes/计网笔记/四网络层_index"> 四、网络层 </a> > （六）移动 ip
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/xIRy1MDUIU"> 计网笔记 </a> > <a href="/notes408/indexes/KBqa1knYFw"> 四、网络层 </a> > （六）移动 ip
 
 ### 1. 概念
 

@@ -1,8 +1,10 @@
 ---
 title: （二）CPU 调度与上下文切换
 date: 2025-03-14T10:21:38.389964+08:00
-tags: ['操作系统笔记', '二、进程管理']
+tags: ['操作系统笔记', '二、进程管理', '（二）CPU 调度与上下文切换.md']
+url: /posts/fTKKBw5GVz
 author: "Yan2u"
+IsPost: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -12,7 +14,7 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
-<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/操作系统笔记_index"> 操作系统笔记 </a> > <a href="/notes408/indexes/操作系统笔记/二进程管理_index"> 二、进程管理 </a> > （二）CPU 调度与上下文切换
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/xhyFtgS9zn"> 操作系统笔记 </a> > <a href="/notes408/indexes/Q6kz1x39VY"> 二、进程管理 </a> > （二）CPU 调度与上下文切换
 
 ### 1. CPU 调度
 

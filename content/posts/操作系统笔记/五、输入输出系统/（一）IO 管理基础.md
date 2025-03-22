@@ -1,8 +1,10 @@
 ---
 title: （一）IO 管理基础
 date: 2025-03-14T10:09:44.099452+08:00
-tags: ['操作系统笔记', '五、输入输出系统']
+tags: ['操作系统笔记', '五、输入输出系统', '（一）IO 管理基础.md']
+url: /posts/PNxAGCUyci
 author: "Yan2u"
+IsPost: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -12,7 +14,7 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
-<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/操作系统笔记_index"> 操作系统笔记 </a> > <a href="/notes408/indexes/操作系统笔记/五输入输出系统_index"> 五、输入输出系统 </a> > （一）IO 管理基础
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/xhyFtgS9zn"> 操作系统笔记 </a> > <a href="/notes408/indexes/YsUkGmiF4i"> 五、输入输出系统 </a> > （一）IO 管理基础
 
 ### 1. IO 设备
 

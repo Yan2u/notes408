@@ -1,8 +1,10 @@
 ---
 title: （一）网络 App、DNS、FTP
 date: 2025-03-14T10:09:46.814406+08:00
-tags: ['计网笔记', '六、应用层']
+tags: ['计网笔记', '六、应用层', '（一）网络 App、DNS、FTP.md']
+url: /posts/rfgleImiPs
 author: "Yan2u"
+IsPost: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -12,7 +14,7 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
-<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/计网笔记_index"> 计网笔记 </a> > <a href="/notes408/indexes/计网笔记/六应用层_index"> 六、应用层 </a> > （一）网络 App、DNS、FTP
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/xIRy1MDUIU"> 计网笔记 </a> > <a href="/notes408/indexes/FJajpaUVuk"> 六、应用层 </a> > （一）网络 App、DNS、FTP
 
 ### 1. 网络应用模型
 

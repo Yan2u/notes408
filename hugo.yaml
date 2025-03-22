@@ -41,7 +41,7 @@ params:
   tocopen: false
 
   # assets:
-  #   # disableHLJS: true # to disable highlight.js
+    # disableHLJS: true # to disable highlight.js
   #   # disableFingerprinting: true
   #   favicon: "<link / abs url>"
   #   favicon16x16: "<link / abs url>"
@@ -134,7 +134,7 @@ markup:
     codeFences: true
     # guessSyntax: true
     lineNos: true
-    style: monokailight
+    style: manni
   goldmark:
     renderer:
       unsafe: true

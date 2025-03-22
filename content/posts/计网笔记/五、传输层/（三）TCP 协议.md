@@ -1,8 +1,10 @@
 ---
 title: （三）TCP 协议
 date: 2025-03-14T10:09:46.514109+08:00
-tags: ['计网笔记', '五、传输层']
+tags: ['计网笔记', '五、传输层', '（三）TCP 协议.md']
+url: /posts/HiJe3SqIcb
 author: "Yan2u"
+IsPost: true
 ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
@@ -12,7 +14,7 @@ ShowWordCount: true
 UseHugoToc: true
 ---
 
-<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/计网笔记_index"> 计网笔记 </a> > <a href="/notes408/indexes/计网笔记/五传输层_index"> 五、传输层 </a> > （三）TCP 协议
+<a href="/notes408/chapters_index"> Indexes </a> > <a href="/notes408/indexes/xIRy1MDUIU"> 计网笔记 </a> > <a href="/notes408/indexes/E1vSPDp0ys"> 五、传输层 </a> > （三）TCP 协议
 
 ### 1. TCP 协议
 
