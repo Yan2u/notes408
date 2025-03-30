@@ -1,17 +1,17 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer">
     {{- if not site.Params.footer.hideCopyright }}
-        {{- if site.Copyright }}
-        <span>{{ site.Copyright | markdownify }}</span>
-        {{- else }}
-        <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
-        {{- end }}
-        {{- print " · "}}
+    {{- if site.Copyright }}
+    <span>{{ site.Copyright | markdownify }}</span>
+    {{- else }}
+    <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
+    {{- end }}
+    {{- print " · "}}
     {{- end }}
 
     {{- with site.Params.footer.text }}
-        {{ . | markdownify }}
-        {{- print " · "}}
+    {{ . | markdownify }}
+    {{- print " · "}}
     {{- end }}
 
     <span>
@@ -80,7 +80,7 @@
 
 {{- if (not site.Params.disableThemeToggle) }}
 <script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
+    const themeToggleFunc = () => {
         if (document.body.className.includes("dark")) {
             document.body.classList.remove('dark');
             localStorage.setItem("pref-theme", 'light');
@@ -88,7 +88,15 @@
             document.body.classList.add('dark');
             localStorage.setItem("pref-theme", 'dark');
         }
-    })
+
+        window.dispatchEvent(new CustomEvent('paperModThemeUpdated', {
+            detail: {
+                theme: localStorage.getItem("pref-theme")
+            }
+        }))
+    }
+    localStorage.setItem('paperModThemeToggleFunc', themeToggleFunc);
+    document.getElementById("theme-toggle").addEventListener("click", themeToggleFunc)
 
 </script>
 {{- end }}

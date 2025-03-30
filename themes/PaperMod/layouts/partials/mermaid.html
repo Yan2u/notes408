@@ -1,0 +1,32 @@
+<!-- mermaid.html -->
+{{ if or .Params.mermaid .Site.Params.mermaid }} <!-- 判断是否开启 -->
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+    let mermaidTheme = (localStorage.getItem('pref-theme') === 'dark') ? 'dark' : 'default';
+    mermaid.initialize({ startOnLoad: true, theme: mermaidTheme });
+    window.addEventListener('paperModThemeUpdated', (e) => {
+        let mermaidTheme = (localStorage.getItem('pref-theme') === 'dark') ? 'dark' : 'default';
+        Array.from(document.getElementsByClassName('mermaid')).forEach((el) => {
+            el.removeAttribute('data-processed');
+            el.innerHTML = el.getAttribute('src');
+        });
+        mermaid.initialize({ startOnLoad: false, theme: mermaidTheme });
+        mermaid.run({ querySelector: '.mermaid' });
+    })
+</script>
+<script>
+    // Replace mermaid pre.code to div  
+    Array.from(document.getElementsByClassName("language-mermaid")).forEach(
+        (el) => {
+            el.parentElement.outerHTML = `<div class="mermaid" src="${el.innerHTML}">${el.innerHTML}</div>`;
+        }
+    );  
+</script>
+<style>
+    /* Set svg to center */
+    .mermaid svg {
+        display: block;
+        margin: auto;
+    }
+</style>
+{{ end }}

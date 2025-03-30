@@ -15,6 +15,7 @@ minify:
 
 params:
   math: true
+  mermaid: true
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: Notes of 408
   description: "Notes of 408 classes"
